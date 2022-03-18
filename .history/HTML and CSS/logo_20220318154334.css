@@ -1,0 +1,10 @@
+.fullcolour-container{
+    display: flex;
+    position: relative;
+    justify-content: left;
+}
+
+.FullColour{
+    width: auto;
+    height: 150px;
+}
