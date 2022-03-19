@@ -30,17 +30,12 @@
     display: flex;
     position: relative;
     justify-content: space-around;
-    top: 500px;
+    bottom: 150px;
 
 }
 
 .Horizontal{
     width: auto;
-    height: 110px;
-}
-
-.Vertical{
-    width: auto;
-    height: 150px;
+    height: 120px;
 }
 
