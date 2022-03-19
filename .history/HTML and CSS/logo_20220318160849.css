@@ -1,0 +1,14 @@
+.logos-container{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    top: 150px;
+    left: 90px;
+}
+
+.logos-container{
+    width: auto;
+    height: 150px;
+}
+
+

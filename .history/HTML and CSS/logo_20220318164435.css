@@ -1,0 +1,30 @@
+.Logos-container{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: 130px;
+    
+}
+
+.FullColour, .GreyScale, .BlackandWhite{
+    width: auto;
+    height: 150px;
+}
+
+.body{
+    position: relative;
+}
+
+.text-container{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    top: 180px;
+
+}
+
+
