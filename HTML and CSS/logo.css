@@ -1,3 +1,62 @@
+/* NAVBAR */
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+
+.list{
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+}
+.navbar{
+    position: relative;
+}
+
+li{
+    display: inline;
+    padding: 20px 50px 20px 50px;
+    position: relative;
+}
+li a{
+    color: #333333;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+}
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #19aff0;
+    height: 3px;
+    width: 0%;
+    right: 0;
+    left: 0;
+    bottom: -10px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+a:hover:after{
+    width: 100%;
+}
+
+
+
+/* NAVBAR END */
+
+
+
+
 .Logos-container{
     display: flex;
     position: relative;
