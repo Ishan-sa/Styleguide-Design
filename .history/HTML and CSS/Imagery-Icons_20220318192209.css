@@ -1,0 +1,71 @@
+.icons1-container{
+display: flex;
+position: relative;
+justify-content: space-evenly;
+flex-direction: right;
+top: 150px;
+}
+
+.icons2-container{
+display: flex;
+position: relative;
+justify-content: space-evenly;
+flex-direction: right;
+top: 250px;
+}
+
+
+.icons3-container{
+display: flex;
+position: relative;
+justify-content: space-evenly;
+flex-direction: right;
+top: 350px;
+}
+
+
+.factory, .pants, .drop, .sale, .price, .door, .home, .youtube, .back{
+
+    width: auto;
+    height: 70px;
+}
+
+.icontext-container{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size:16px;
+    font-weight: 400;
+    bottom:140px;
+}
+
+.buttontext-container{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size:16px;
+    font-weight: 400;
+    top:350px;
+}
+
+.body{
+position: relative;
+}
+
+.button-container{
+display: flex;
+position: relative;
+justify-content: space-evenly;
+top: 520px;
+}
+
+.buynow, .enter, .makejeans, .learnmore{
+width: auto;
+height: 25px;
+}
+
+
+
+

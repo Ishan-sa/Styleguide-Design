@@ -15,12 +15,12 @@
     position: relative;
 }
 
-li{
+.li{
     display: inline;
     padding: 20px 50px 20px 50px;
     position: relative;
 }
-li a{
+.li a{
     color: #333333;
     text-decoration: none;
     text-align: center;
@@ -140,7 +140,7 @@ a:hover:after{
 
 /* Text about color pallete */
 
-.text, .text-2, .text-3{
+.text{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -180,6 +180,7 @@ a:hover:after{
     font-size: 20px;
     color: #656565;
     padding-left: 100px;
+    padding-top: 15px;
 }
 .montserrat-container:after{
     display: flex;
@@ -191,9 +192,13 @@ a:hover:after{
     bottom: -10px;
     border-radius: 20px;
 }
-
+.text-2, .text-3{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 100px;
+    padding-top: 15px;
+}
 .headings{
-    padding-top: 30px;
     padding-left: 100px;
     line-height: 70px;
 }
@@ -210,7 +215,7 @@ a:hover:after{
     position: relative;
     font-size: 20px;
     color: #656565;
-    padding-left: 100px;
+    padding: 27px 100px 0px 100px;
 }
 .paragraphs-container:after{
     display: flex;
@@ -218,8 +223,8 @@ a:hover:after{
     position: absolute;
     background-color: #19AFF0;
     height: 3px;
-    width: 3%;
-    bottom: -10px;
+    width: 20%;
+    bottom: 390px;
     border-radius: 20px;
 }
 
@@ -227,4 +232,29 @@ a:hover:after{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 30px;
 }
+
+.list-1{
+    display: block;
+    position: relative;
+    margin-left: 1401px;
+    margin-top: -383px;
+}
+.list-2{
+    display: block;
+    position: relative;
+    margin-left: 1369px;
+    margin-top: -104px;
+}
+.right{
+    padding-top: 10px;
+    width: 180px;
+    height: auto;
+    padding-right: 264px;
+}
+
+/* .grid-container{
+    display: grid;
+    grid-template-columns: 2;
+} */
