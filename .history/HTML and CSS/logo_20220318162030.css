@@ -1,0 +1,14 @@
+.Logos-container{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: 160px;
+    
+}
+
+.FullColour, .GreyScale, .BlackandWhite{
+    width: auto;
+    height: 150px;
+}
+
+

@@ -18,12 +18,12 @@
 .text1-container{
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     position: relative;
     font-size: 16px;
     text-align: center;
     font-weight: 400;
-    top: 180px;
+
 }
 
 
