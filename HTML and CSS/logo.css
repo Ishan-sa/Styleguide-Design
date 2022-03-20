@@ -16,12 +16,12 @@
     position: relative;
 }
 
-li{
+.li{
     display: inline;
     padding: 20px 50px 20px 50px;
     position: relative;
 }
-li a{
+.li a{
     color: #333333;
     text-decoration: none;
     text-align: center;
@@ -61,36 +61,71 @@ a:hover:after{
     display: flex;
     position: relative;
     justify-content: space-around;
-    top: 130px;
-    
+    padding-top: 20px;
 }
 
-.FullColour, .GreyScale, .BlackandWhite{
+.full-colour, .grayscale, .b-w{
     width: auto;
     height: 150px;
+}
+
+.b-w, .grayscale, .full-colour{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .body{
     position: relative;
 }
 
-.text1-container{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
+.text-container{
+    display: block;
     justify-content: center;
     position: relative;
+    padding: 82px 0px 0px 0px;
     font-size: 16px;
     text-align: center;
     font-weight: 400;
-    top: 50px;
+}
+
+.text-container > p{
+    line-height: 30px;
+}
+
+.dp{
+    display: block;
+    line-height: 35px;
 }
 
 .versions-container{
     display: flex;
     position: relative;
     justify-content: space-around;
-    top: 500px;
+    padding-top: 50px;
+}
 
+.hr, .vr{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: #656565;
+}
+
+.underline{
+    padding-bottom: 15px;
+}
+
+.underline:after{
+    display: flex;
+    content: "";
+    position: absolute;
+    background-color: #6EAB3B;
+    height: 3px;
+    width: 10%;
+    border-radius: 20px;
 }
 
 .Horizontal{
