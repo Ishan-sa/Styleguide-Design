@@ -1,4 +1,3 @@
-/* NAVBAR STARTS */
 
 *{
     font-family: 'Montserrat', sans-serif;
@@ -7,6 +6,7 @@
     margin-top: 5px;
 }
 
+/* NAVBAR STARTS */
 
 .list{
     list-style: none;
@@ -17,12 +17,12 @@
     position: relative;
 }
 
-li{
+.li{
     display: inline;
     padding: 20px 50px 20px 50px;
     position: relative;
 }
-li a{
+.li a{
     color: #333333;
     text-decoration: none;
     text-align: center;
