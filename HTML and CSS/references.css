@@ -81,11 +81,3 @@ a:hover:after{
     color: #19aff0;
     text-decoration: none;
 }
-.link:hover{
-    animation: shrink 0.5s ease-in-out;
-}
-
-@keyframes shrink{
-    0%{scale: 0.5;}
-    100%{scale: 1.0;}
-}
