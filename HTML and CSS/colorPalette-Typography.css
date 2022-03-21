@@ -50,6 +50,7 @@ a:hover:after{
     width: 100%;
 }
 
+
 /* NAVBAR ENDS */
 
 
@@ -77,7 +78,13 @@ a:hover:after{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    align-content: center;
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 170px;
 }
+
 .colors-1{
     display: flex;
     margin-top: 33px;
@@ -98,9 +105,11 @@ a:hover:after{
     /* line-height: 40px; */
     display: flex;
     justify-content: space-evenly;
+    text-align: left;
     flex-direction: column;
     padding-top: 42px;
     line-height: 53px;
+    width: 280px;
 }
 .c1{
     width: 50px;
@@ -224,23 +233,41 @@ a:hover:after{
 
 /* Paragraphs */
 
-.paragraphs-container{
+.para, .para-2{
     display: flex;
     text-align: center;
     position: relative;
     font-size: 20px;
     color: #656565;
-    padding: 27px 100px 0px 100px;
+    padding: 27px 0px 0px 0px;
 }
-.paragraphs-container:after{
+
+.paragraphs-container{
+    margin-right: 100px;
+}
+.para:after{
     display: flex;
     content: "";
     position: absolute;
     background-color: #19AFF0;
     height: 3px;
     width: 20%;
-    bottom: 390px;
+    bottom: -10px;
     border-radius: 20px;
+}
+.para-2:after{
+    display: flex;
+    content: "";
+    position: absolute;
+    background-color: #19AFF0;
+    height: 3px;
+    width: 20%;
+    bottom: -10px;
+    border-radius: 20px;
+}
+
+.right-a{
+    line-height: 20px;
 }
 
 .section{
@@ -249,27 +276,21 @@ a:hover:after{
     justify-content: space-around;
     padding-top: 30px;
 }
-
 .list-1{
-    display: block;
-    position: relative;
-    margin-left: 1401px;
-    margin-top: -383px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
 }
-.list-2{
-    display: block;
-    position: relative;
-    margin-left: 1369px;
-    margin-top: -104px;
-}
-.right{
-    padding-top: 10px;
-    width: 180px;
-    height: auto;
-    padding-right: 264px;
+.list-1 img{
+    margin-right: 12px;
 }
 
-/* .grid-container{
-    display: grid;
-    grid-template-columns: 2;
-} */
+.list-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.list-2 img{
+    margin-right: 12px;
+}
